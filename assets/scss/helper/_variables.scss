@@ -1,0 +1,35 @@
+/*顏色設定*/
+:root {
+    --neutral-000: #ffffff;
+    --neutral-300: #DEE2E6;
+    --primary-400: #57a283;
+    --neutral-500:#ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-900: #212529;
+    --primary-300: #C0FA73;
+    --primary-200: #E8FEC5;
+    --primary-100: #f5fee7;
+    --natural-900: #6C757D;
+    --functionalDanger-300:#D74f4f;
+}
+.c-p400{
+    color:var(--primary-400);
+}
+.c-n900{
+    color:var(--neutral-900);
+}
+.c-n500{
+    color:var(--neutral-500);
+}
+.c-n000{
+    color:var(--neutral-000);
+}
+
+.c-300p{
+    color:var(--primary-300);
+}
+.c-100p{
+    color:var(--primary-100);
+}
+
+

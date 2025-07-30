@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './helper/variables';
+@import './helper/utils';
+
+@import './base/reset';
+@import './base/base';
+
+@import './compoent/breadcrmb';
+@import './compoent/button';
+
+@import './layout/header';
+@import './layout/footer';
+
+
+@import './pages/index';
+@import './pages/story';
+@import './pages/product';

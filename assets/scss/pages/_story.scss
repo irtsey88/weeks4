@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after{
+ box-sizing: border-box;
+}
+
+.header-img{
+background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
+height: 400px; 
+display: flex;
+align-items: center;      /* 垂直置中 */
+justify-content: center; /* 內容置中 */
+}
+
+@media(max-width:767px){
+.header-img{
+  padding: 87px 0px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
+}
+
+}
+
+.content{
+  margin: 0 auto;
+  max-width: 1076px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.style{
+ margin: 0 auto;
+ max-width: 856px;
+}
+
+.article-info{
+  margin: 0 auto;
+  max-width: 856px;
+  padding:32px;
+  background: #F5FEE7;
+  text-align:center;
+  justify-content: center;
+  border-radius:16px;
+  margin-bottom: 48px;
+}
+
+@media(max-width:576px){
+  .article-info{
+    padding:24px;
+    margin-bottom: 32px;
+    text-align:left;
+  }
+}
+@media(max-width:767px){
+  
+.p-mb-120{
+padding-left:-12px;
+padding-right:-12px;
+}
+}
+
+
+
+.course label{
+  border-left:1px solid #212529;
+  margin-left:5px;
+  padding-left:5px;
+}
+
+.course li{
+padding-left:8px;
+list-style:disc inside;
+}
+.idea label{
+  border-left:3px solid #DEE2E6;
+  padding-left:12px
+}
+
+.story a{
+  line-height: 1.5;
+  display: inline-block;
+  color: #3ba000; /* 綠色字體 */
+  text-decoration: none;
+  font-weight:500;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom:4px;
+}
+.story a::after {
+  content: "";
+  position: absolute;
+  left: 20px; /* 調整線的起點位置，避開箭頭 */
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #3ba000; /* 綠色下劃線 */
+}
+.underline {
+  padding-top:24px;
+  padding-bottom:32px;
+  border-bottom:1px solid #dee2e6;
+}
+footer{
+  font-size: 14px;
+  background: #F8F9FA;
+  color:#6C757D;
+  text-align:center;
+  padding:64px 0px;
+  font-size: 14px;
+
+}
+

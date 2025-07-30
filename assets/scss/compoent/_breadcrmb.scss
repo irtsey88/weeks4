@@ -1,0 +1,49 @@
+
+/*麵包屑導覽元件*/
+.slash-item+.slash-item::before {
+    content: '/';
+    padding: 0px 12px;
+    color: var(--neutral-300);
+    font-weight: 700;
+}
+
+.slash-item {
+    /*也要同方向的排列*/
+    display: flex;
+    font-weight: 500;
+}
+
+.slash-link {
+    color: var(--neutral-600);
+    font-weight: 900;
+}
+
+.all-product {
+    color: var(--primary-400);
+}
+
+@media(max-width:767px){
+
+.slash-item+.slash-item::before {
+padding: 0 8px;
+}
+
+.slash-item {
+font-size: 14px;
+}
+}
+
+
+.line{
+    border-top: 1px solid var(--neutral-300)
+}
+
+.line-b{
+    border-bottom: 1px solid var(--neutral-300)
+}
+
+.banner{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}

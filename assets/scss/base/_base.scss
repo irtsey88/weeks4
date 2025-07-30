@@ -1,0 +1,32 @@
+/*標籤基本樣式*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/**{
+    outline:1px solid red;
+}*/
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color:var(--neutral-900)
+}
+
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--neutral-900);
+}
+
+img {
+    /*width: 342.67px;
+    height: 342.67px;*/
+    vertical-align: middle;
+    max-width: 100%;
+    height:auto;
+}

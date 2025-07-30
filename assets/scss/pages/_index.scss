@@ -1,0 +1,176 @@
+/*首頁*/
+/**{
+    outline:1px solid red;
+}*/
+
+.first-img{
+background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
+height: 800px; 
+display: flex;
+align-items: center;      /* 垂直置中 */
+justify-content: flex-start; /* 內容靠左 */
+}
+
+.title{
+    padding-top:289px;
+    margin-left: 200px;
+}
+
+
+.card{
+position: relative;
+display:flex;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:var(--primary-100);
+  color: var(--primary-400);
+  font-weight: 500;
+  padding: 8px 12px;
+  font-size: 14px;
+} 
+
+.middle-img{
+background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true");
+height: 470px; 
+/*padding: 100px 0px;*/
+display: flex;
+text-align: center;
+align-items: center;      /*垂直置中 */
+justify-content: center; /*內容置中 */
+position:relative;
+padding-top:100px;
+padding-bottom: 100px;
+}
+
+
+.star-img{
+    position:absolute;
+    width: 48px;
+    top:68px;
+    left: calc(50% - 397px);
+    /*left: 50%;
+    transform: translateX(-397px);
+    這樣可以保證 .star-img 隨畫面寬度自適應 left: 50%，再偏移 -397px，也更穩定。-GPT*/
+}
+
+.spark-img{
+    position:absolute;
+    width: 76px;
+    bottom: 132px;
+    right:50%;
+    transform: translateX(- 357px);
+    /*left: calc(50% - 357px);*/
+}
+
+@media(max-width:767px){
+
+.first-img{
+background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true");
+height: 470px; 
+overflow: hidden;
+justify-content: flex-start;
+}
+
+.title{
+padding-top: 24px;
+padding-left: 155px;
+}
+
+.product-md-row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.product-md-col{
+    min-width:316px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.middle-img{
+background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true");
+height: 470px; 
+padding-top:24px;
+padding-bottom: 24px;
+overflow: hidden;
+}
+
+.btn-md{
+    padding:12px 24px;
+}
+
+.star-img{
+ top:32px;
+ left:-20px;
+    
+}
+
+.spark-img{
+ bottom:104;
+ right:-28px;
+}
+
+}
+
+.series{
+ position: relative;
+}
+
+.series-text{
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+   right: 0px;
+   left:0px;
+   background-color: rgba(black,0.4);
+   color:#ffffff;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+
+ .ootd-row{
+ display: flex;
+ flex-wrap: wrap;
+ margin: -4px;
+ }
+
+ .ootd-col-4{
+   width: calc(100% / 12 * 4);
+   padding: 4px;
+ }
+
+  .ootd-col-6{
+   width: calc(100% / 12 * 6);
+   padding: 4px;
+ }
+
+  .ootd-col-12{
+   width: 100%;
+   padding: 4px;
+ }
+
+ @media(max-width:767px){
+ .ootd-row{
+  flex-wrap: nowrap;
+  margin-left: -8px;
+  margin-right: -8px;
+  img{
+    min-width: 300px;
+  }
+ }
+ .ootd-col-4,
+ .ootd-col-6,
+ .ootd-col-12{
+  width: unset;/*清除欄寬樣式*/
+  padding-left:8px;
+  padding-right: 8px;
+ }
+
+ }

@@ -1,0 +1,43 @@
+/*按鈕設定*/
+.btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;/*游標改成手指的樣式*/
+    border: none; /*因為通用樣式，先把線條拿掉*/
+    background-color: transparent;/*因為通用樣式，所以先設定透明*/
+}
+
+@media(max-width:576px){
+
+.btn{
+    padding: 8px 16px;
+}
+
+
+}
+
+.page .btn{
+    padding:8px 15px;
+    border-radius: 0px;
+    font-weight: 400;
+
+}
+.page .active{
+    background-color:var(--primary-300);
+    font-weight: 500;
+}
+.member{
+    background-color: var(--primary-200);
+}
+
+
+.b-color{
+    background-color: var(--neutral-900);
+    color: #ffffff;
+}
+.g-color{
+background-color:var(--primary-300);
+font-weight: 500;
+}
