@@ -63,9 +63,7 @@ vertical-align: middle;
     position:absolute;
     width: 76px;
     bottom: 132px;
-    right:50%;
-    transform: translateX(- 357px);
-    /*left: calc(50% - 357px);*/
+    right: calc(50% - 357px);
 }
 
 @media(max-width:767px){
@@ -98,7 +96,7 @@ background-image: url("https://github.com/hexschool/2022-web-layout-training/blo
 height: 470px; 
 padding-top:24px;
 padding-bottom: 24px;
-/*overflow: hidden;*/
+overflow: hidden;
 }
 
 .btn-md{
