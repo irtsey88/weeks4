@@ -2,4 +2,6 @@ import './assets/scss/all.scss';
 
 console.log('Hello world');
 
-AOS.init();
+<script>
+  AOS.init();
+</script>
