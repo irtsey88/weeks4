@@ -18,13 +18,13 @@
 
 }
 
-.page .btn{
+.pagination .btn{
     padding:8px 15px;
     border-radius: 0px;
     font-weight: 400;
 
 }
-.page .active{
+.pagination .active{
     background-color:var(--primary-300);
     font-weight: 500;
 }
@@ -33,11 +33,12 @@
 }
 
 
-.b-color{
+.btn-black{
     background-color: var(--neutral-900);
     color: #ffffff;
 }
-.g-color{
+
+.btn-green{
 background-color:var(--primary-300);
 font-weight: 500;
 }

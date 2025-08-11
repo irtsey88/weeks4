@@ -101,7 +101,7 @@
  .flex-md-column{
   flex-direction: column;
  }
- .df-md{
+ .d-md-flex{
     display:flex;
  }
 
@@ -189,15 +189,15 @@ overflow-x: auto;
 .jc-center {
     justify-content: center;
 }
-.jc-flexstar{
-    justify-content:flex-star;
+.jc-flexstart{
+    justify-content:flex-start;
 }
 
 
 @media(max-width:576px){
 
- .d-sm-jcflexstar{
-  justify-content:flex-star;
+ .d-sm-jcflexstart{
+  justify-content:flex-start;
  }
 
 }
@@ -320,7 +320,7 @@ padding: 17px 0px;
 @media(max-width:576px){
  .px-sm-12{
   padding-right: 12px;
-  padding-right: 12px;
+  padding-left: 12px;
  }
 
  .py-sm-12{
@@ -373,7 +373,8 @@ padding: 17px 0px;
 }
 
 .my-8{
-    margin: 8px 0px;
+    margin-top:8px;
+    margin-bottom: 8px;
 }
 
 .mb-48 {
@@ -410,8 +411,9 @@ padding: 17px 0px;
 .mb-4 {
     margin-bottom: 4px;
 }
-.my-812{
-    margin:8px 12px;
+.mx-12{
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 @media(max-width:767px){

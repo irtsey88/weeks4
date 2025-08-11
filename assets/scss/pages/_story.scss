@@ -10,6 +10,7 @@ height: 400px;
 display: flex;
 align-items: center;      /* 垂直置中 */
 justify-content: center; /* 內容置中 */
+vertical-align: middle
 }
 
 @media(max-width:767px){
@@ -76,7 +77,6 @@ list-style:disc inside;
 }
 
 .story a{
-  line-height: 1.5;
   display: inline-block;
   color: #3ba000; /* 綠色字體 */
   text-decoration: none;
