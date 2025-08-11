@@ -22,6 +22,9 @@ vertical-align: middle;
 position: relative;
 display:flex;
 }
+.card:hover{
+  transform:scale(0.9,0.9);
+}
 
 .badge {
   position: absolute;
@@ -60,11 +63,13 @@ vertical-align: middle;
 }
 
 .sparkle-img{
-    position:absolute;
-    width: 76px;
-    bottom: 132px;
-    right: calc(50% - 357px);
+  position:absolute;
+  width: 76px;
+  bottom: 132px;
+  right: calc(50% - 357px);
 }
+
+
 
 @media(max-width:767px){
 

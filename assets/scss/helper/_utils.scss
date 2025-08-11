@@ -129,8 +129,11 @@ overflow-x: auto;
 }
 
 @media(max-width:576px){
+.d-sm-jcflexstart{
+align-items: flex-start;
+text-align: left;
 
-
+}
 
 }
 
@@ -194,24 +197,8 @@ overflow-x: auto;
     justify-content:flex-start;
 }
 
-@media (max-width: 576px) {
-  .d-sm-jcflexstart {
-    text-align: left; /* 文字靠左 */
-  }
-  .d-sm-jcflexstart > * {
-    margin-left: 12px; /* 內部元素貼左 */
-    margin-right: auto; /* 推到左邊 */
-  }
-}
 
 
-@media(max-width:576px){
-
- .d-sm-jcflexstart{
-  justify-content:flex-start;
- }
-
-}
 
 .aic {
     align-items: center;

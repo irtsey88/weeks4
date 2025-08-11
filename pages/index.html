@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <title>index</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>首頁</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
@@ -25,7 +26,7 @@
 
       <div class="row">
         <div class="col-6">
-          <div class="mb-40">
+          <div class="mb-40" data-aos="fade-down" data-aos-delay="100">
             <a href="#">
               <img
                 class="mb-12"
@@ -39,7 +40,7 @@
         </div>
 
         <div class="col-6">
-          <div class="mb-40">
+          <div class="mb-40" data-aos="fade-down" data-aos-delay="100">
             <a href="#">
               <img
                 class="mb-12"
@@ -53,7 +54,7 @@
         </div>
 
         <div class="col-6">
-          <div class="mb-40">
+          <div class="mb-40" data-aos="fade-down" data-aos-delay="600">
             <a href="#">
               <img class="mb-12"
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-3.png?raw=true"
@@ -65,7 +66,7 @@
         </div>
 
         <div class="col-6">
-          <div class="mb-40">
+          <div class="mb-40" data-aos="fade-down" data-aos-delay="600">
             <a href="#">
               <img
                 class="mb-12"
@@ -160,7 +161,7 @@
         <div class="row">
 
         <div class="col-3 col-md-2">
-          <div class="series mb-md-12">
+          <div class="series mb-md-12" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
           <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
             alt="慢跑系列"/>
           <div class="series-text">
@@ -171,7 +172,7 @@
         </div>
 
         <div class="col-3 col-md-2">
-          <div class="series mb-md-12">
+          <div class="series mb-md-12" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
           <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/product-11.png?raw=true"
             alt="滑板系列"/>
           <div class="series-text">
@@ -182,7 +183,7 @@
         </div>
 
         <div class="col-3 col-md-2">
-          <div class="series">
+          <div class="series" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
           <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
             alt="厚底系列"/>
           <div class="series-text">
@@ -193,7 +194,7 @@
         </div>
 
         <div class="col-3 col-md-2">
-          <div class="series">
+          <div class="series" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
           <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/product-10.png?raw=true "
            alt="聯名企劃"/>
           <div class="series-text">
@@ -291,6 +292,7 @@
 
     <%- include('./layout/footer'); -%>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
