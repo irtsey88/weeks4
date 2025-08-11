@@ -114,7 +114,7 @@
  }
 
  .gap-md-8{
-   gap:px;
+   gap:8px;
  }
 }
 
@@ -141,6 +141,7 @@ overflow-x: auto;
 .d-none{
     display:none;
 }
+
 @media(max-width:767px){
 
 .d-md-block{
@@ -189,8 +190,18 @@ overflow-x: auto;
 .jc-center {
     justify-content: center;
 }
-.jc-flexstart{
+.d-flexstart{
     justify-content:flex-start;
+}
+
+@media (max-width: 576px) {
+  .d-sm-jcflexstart {
+    text-align: left; /* 文字靠左 */
+  }
+  .d-sm-jcflexstart > * {
+    margin-left: 12px; /* 內部元素貼左 */
+    margin-right: auto; /* 推到左邊 */
+  }
 }
 
 
@@ -279,6 +290,9 @@ padding: 17px 0px;
     padding-right: 24px;
     padding-left: 24px;
 }
+.pl-12{
+    padding-left: 12px;
+}
 
 @media(max-width:767px){
  .px-mb-32{
@@ -338,8 +352,9 @@ padding: 17px 0px;
  .pr-sm-16{
     padding-right: 16px;
  }
-
 }
+
+
 
 .mr-48 {
     margin-right: 48px;
